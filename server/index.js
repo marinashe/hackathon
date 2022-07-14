@@ -1,7 +1,7 @@
 const express = require('express')
 const tickets = require('./tickets.json');
 const app = express()
-const port = 3000
+const port = 3001
 
 
 app.get('/tickets', (req, res) => {
